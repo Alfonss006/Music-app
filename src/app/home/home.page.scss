@@ -1,14 +1,19 @@
+ion-content {
+  --background: var(--ion-color-success);
+  font-family: "Times New Roman", Times, serif;
+}
+
 ion-slides {
-  background-color: white;
-  height: 100%;
+  background-color:white;
+  height: 95%;
   max-width: 800px;
+  margin: 20px;
 }
 
 .swiper-slide {
   display: block;
   background-color: white;
   margin-bottom: 64px;
-  margin-top: 50px;
 }
 .img-slide {
   max-height: 50%;
